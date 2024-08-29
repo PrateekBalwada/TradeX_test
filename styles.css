@@ -14,6 +14,7 @@
   opacity: 1;
 }
 
+
 .no-radius {
   border-radius: 0;
 }
@@ -24,6 +25,15 @@
   margin-bottom: 1.5rem;
   border-radius: 50px;
 }
+.divider {
+  width: 20%;
+  height: 4px;
+  background-color: #3874FF;
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
 hr{
   opacity: 1;
 }
@@ -55,6 +65,70 @@ hr{
 
 .option-icon {
   font-size: 25px;
+}
+
+.market-movers {
+  background-color: #16172F;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.stock-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0E0F23;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.stock-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.stock-info {
+  display: flex;
+  align-items: center;
+}
+
+.stock-name {
+  font-weight: bold;
+}
+
+.stock-price {
+  text-align: right;
+}
+
+.stock-change {
+  color: green;
+}
+
+.trending-section {
+  padding: 20px;
+  margin-top:25%;
+}
+.market-card h5 {
+  font-size: 16px;
+  color: #5078ff;
+}
+
+.market-card .price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.market-card .change {
+  font-size: 16px;
+  color: #333;
+}
+
+.market-card .percentage {
+  font-size: 14px;
+  color: #4caf50;
 }
 
 body {

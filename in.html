@@ -2,72 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collaborate with Lemonn</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f7;
-        }
-
-        .section-container {
-            background-color: #f8f8fa;
-            padding: 50px 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .section-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .section-title {
-            font-size: 36px;
-            font-weight: bold;
-        }
-
-        .cta-button {
-            background-color: #b8fb12;
-            color: #000;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background-color: #79ca2d;
-            color: #fff;
-        }
-
-    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file here -->
+    <title>Footer Example</title>
 </head>
 <body>
 
-<div class="container section-container">
-    <div class="row section-content align-items-center">
-        <div class="col-md-6 text-center text-md-left">
-            <img src="your-image-path.png" alt="Collaboration Illustration" class="illustration">
-        </div>
-        <div class="col-md-6">
-            <h2 class="section-title">Collaborate with Lemonn</h2>
-            <div class="highlight"></div>
-            <p class="lead">
-                Signup as a digital referral associate today and start earning.
-            </p>
-            <a href="#" class="cta-button">Get Started →</a>
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <!-- Logo and Certifications -->
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 text-center text-lg-left">
+                <img src="logo.png" alt="Logo" class="img-fluid mb-3"> <!-- Replace with your logo source -->
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <div class="badge bg-white shadow-sm mx-2 p-3 d-flex align-items-center">
+                        <i class="fas fa-shield-alt text-primary mr-2"></i> 
+                        <div>
+                            <div class="text-muted">ISO/IEC 27001: 2022</div>
+                        </div>
+                    </div>
+                    <div class="badge bg-white shadow-sm mx-2 p-3 d-flex align-items-center">
+                        <i class="fas fa-university text-primary mr-2"></i>
+                        <div>
+                            <div class="text-muted">SEBI Registered</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product and Company Links -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="row">
+                    <div class="col-6">
+                        <h6 class="text-uppercase font-weight-bold">Products</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark">Indian Stocks</a></li>
+                            <li><a href="#" class="text-dark">Mutual Funds</a></li>
+                            <li><a href="#" class="text-dark">Future and Options</a></li>
+                            <li><a href="#" class="text-dark">Research Coverage</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h6 class="text-uppercase font-weight-bold">Company</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark">About us</a></li>
+                            <li><a href="#" class="text-dark">Blog</a></li>
+                            <li><a href="#" class="text-dark">Track Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="col-lg-4 col-md-6 text-center text-lg-right">
+                <h6 class="text-uppercase font-weight-bold">Follow us on</h6>
+                <div class="d-flex justify-content-center justify-content-lg-end">
+                    <a href="#" class="btn btn-dark btn-lg rounded-circle mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-dark btn-lg rounded-circle mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-dark btn-lg rounded-circle mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-dark btn-lg rounded-circle mx-2"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="btn btn-dark btn-lg rounded-circle mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</footer>
 
-<!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

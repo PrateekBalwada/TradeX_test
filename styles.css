@@ -136,7 +136,7 @@ body {
   color: #fff;
   font-family: "DM Sans", sans-serif;
 }
-.navbar, .footer {
+.navbar{
   background-color: #141414;
 }
 .btn-custom {
@@ -315,5 +315,39 @@ body {
 
 /* Footer Section */
 .footer {
-  padding: 20px 0;
+  background-color: #17181C;
+  padding: 40px 0;
 }
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 4%;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 4%;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.text-primaryy {
+  color: #fff;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+

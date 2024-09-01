@@ -240,6 +240,10 @@ body {
   .btn-custom {
     font-size: 0.9rem; /* Smaller font size for the button */
   }
+
+  .marginreq{
+    margin-left: 2%;
+  }
 }
 
 @media (max-width: 767px) {

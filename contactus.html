@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
 
@@ -64,40 +65,57 @@
     </div>
 </nav>
 
-<!-- Main Content -->
-<div class="flex-grow-1">
-  <!-- Contact Us Section -->
-  <section id="contact" class="py-5">
-      <div class="container">
-          <h2 class="text-center mb-4">Contact Us</h2>
-          <div class="row justify-content-center">
-              <div class="col-md-6 mb-4 mb-md-0">
-                  <form>
-                      <div class="mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="email" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="message" class="form-label">Message</label>
-                          <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Send Message</button>
-                  </form>
-              </div>
-              <div class="col-md-6 d-flex flex-column align-items-center">
-                  <h4 class="text-center">Our Contact Details</h4>
-                  <p class="text-center"><i class="fas fa-map-marker-alt"></i> 123 Trade Street, Finance City, TX 12345</p>
-                  <p class="text-center"><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
-                  <p class="text-center"><i class="fas fa-envelope"></i> contact@tradex.com</p>
-              </div>
-          </div>
-      </div>
-  </section>
-</div>
+<section class="contact">
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+    <div class="container2">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>4671 Sugar Camp Road, <br>Owatonna, Minnesota, <br>55060</br></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>9530024136</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>test@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <input type="inputBox" name="" required="required">
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" name="" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
 
 <!-- Footer -->
 <footer class="footer mt-auto">

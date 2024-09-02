@@ -1,0 +1,23 @@
+<!-- Sign In Section -->
+<section class="sign-in-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">Sign In</h2>
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

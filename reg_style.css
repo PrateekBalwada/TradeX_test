@@ -1,196 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-.navbar{
-  background-color: #141414;
-}
-.btn-custom {
-  background-color: #3874FF;
-  color: #fff;
-}
-.btn-custom:hover {
-  background-color: #2D5CCC;
-}
-
-.navbar-brand {
-    font-size: 30px; /* Increase the font size of the logo */
-    font-weight: bold; /* Make the logo text bolder */
-  }
-
-  .navbar-nav .nav-link {
-    font-size: 20px; /* Increase the font size of the navigation links */
-  }
-
-/* Hero Section */
-.wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px; /* Adjust the height of the wave */
-    margin-top: -1px; /* Adjust if needed to eliminate any gaps */
-}
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-}
-
-:root {
-  --primary-color:  #3874FF;
-  --background-color: #0b0c10;
-  --text-color: #fff;
-  --input-border-color: rgba(255, 255, 255, 0.7);
-  --button-hover-color: #d0d4e0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: var(--background-color);
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: url('img/background.jpg') no-repeat center center/cover;
-  animation: animateBg 8s infinite alternate;
-}
-
-@keyframes animateBg {
-}
-
-.login-box {
-  position: relative;
-  width: 380px;
-  padding: 40px;
-  background: rgba(0, 0, 0, 0.5);
+.wrapper{
+  width: 330px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: #fff;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(15px);
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-.login-box:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 2em;
-  color: var(--text-color);
   text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-
-.input-box {
-  position: relative;
-  margin: 30px 0;
-  border-bottom: 2px solid var(--input-border-color);
+h1{
+  font-size: 2rem;
+  color: #07001f;
 }
-
-.input-box label {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  font-size: 1em;
-  color: var(--text-color);
-  pointer-events: none;
-  transition: 0.5s;
+p{
+  margin-bottom: 1.7rem;
 }
-
-.input-box input:focus ~ label,
-.input-box input:valid ~ label {
-  top: -5px;
-  color: var(--primary-color);
-}
-
-.input-box input {
-  width: 100%;
-  height: 40px;
-  background: transparent;
-  border: none;
+form input{
+  width: 85%;
   outline: none;
-  font-size: 1em;
-  color: var(--text-color);
-  padding: 0 35px 0 5px;
-}
-
-.input-box .icon {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  color: var(--text-color);
-  transform: translateY(-50%);
-}
-
-.remember-forgot {
-  margin: -15px 0 15px;
-  font-size: 0.9em;
-  color: var(--text-color);
-  display: flex;
-  justify-content: space-between;
-}
-
-.remember-forgot label input {
-  margin-right: 3px;
-}
-
-.remember-forgot a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-.remember-forgot a:hover {
-  text-decoration: underline;
-}
-
-.animated-button {
-  width: 100%;
-  height: 40px;
-  background-color: var(--primary-color);
   border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 1em;
-  color: var(--background-color);
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
-
-.animated-button:hover {
-  background-color: var(--button-hover-color);
-  transform: scale(1.05);
+.recover{
+  text-align: right;
+  font-size: 0.8rem;
+  margin: 0.2rem 1.7rem 0 0;
 }
-
-.register-link {
-  font-size: 0.9em;
-  color: var(--text-color);
-  text-align: center;
-  margin-top: 20px;
-}
-
-.register-link p a {
-  color: var(--primary-color);
+.recover a{
   text-decoration: none;
-  font-weight: 600;
+  color: #07001f;
 }
-
-.register-link p a:hover {
+button{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background: rgba(122, 30, 30, 0.767);
+}
+.or{
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.icons i{
+  color: #07001f;
+  padding: 00.8rem 1.5rem;
+  border-radius: 10px;
+  margin-left: .9rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+}
+.icons i:hover{
+  color: #fff !important;
+  background: #07001f;
+  transition: 1s;
+}
+.icons i:first-child{
+  color: green;
+}
+.icons i:last-child{
+  color: blue;
+}
+.not-member{
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+}
+.not-member a{
+  color: tomato;
+  text-decoration: none;
+}
+a:hover{
   text-decoration: underline;
-}
-
-@media (max-width: 500px) {
-  .login-box {
-    width: 90%;
-    padding: 30px;
-  }
 }

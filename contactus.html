@@ -34,7 +34,7 @@
                     <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                    <a class="nav-link active" href="contactus.html">Contact Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto d-none d-lg-flex">
@@ -54,7 +54,7 @@
                 <a class="nav-link" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact Us</a>
+                <a class="nav-link active" href="contactus.html">Contact Us</a>
             </li>
                 <li class="nav-item">
                     <a class="btn btn-outline-light no-radius w-100" href="signin.html">Sign In</a>
@@ -64,64 +64,40 @@
     </div>
 </nav>
 
-<section class="sign-in-section py-5 d-flex align-items-center">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- Big Text on the Left -->
-        <div class="col-lg-6 d-flex align-items-center justify-content-center text-center text-lg-start">
-          <h1 class="display-3 fw-bold">Create an Account</h1>
-        </div>
-        
-        <!-- Registration Form on the Right -->
-        <div class="col-lg-6 d-flex justify-content-center">
-          <div class="container bg-opacity-75 p-4 rounded"> <!-- Added padding and rounded corners -->
-            <div class="row justify-content-center"> <!-- Changed from justify-content-end to justify-content-center for better centering -->
-              <div class="col-md-10 col-lg-8">
-                <h2 class="text-center mb-4">Register</h2>
-                <form>
-                  <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                  </div>
-                  <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
-                  </div>
-                  <div class="mb-3">
-                    <label for="confirmPassword" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
-                  </div>
-                  <!-- Register and Sign In Buttons -->
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button type="submit" href="index.html" class="btn btn-primary">Register</button>
-                    <a href="signin.html" class="btn btn-outline-secondary">Sign In</a>
-                  </div>
-                </form>
-  
-                <!-- Divider -->
-                <div class="text-center mt-4">
-                  <span>or continue with</span>
-                </div>
-  
-                <!-- Social Sign-In Buttons with Icons Only -->
-                <div class="d-flex flex-wrap justify-content-center mt-3">
-                  <a href="#" class="btn btn-outline-danger me-2 mb-2"><i class="fab fa-google"></i></a>
-                  <a href="#" class="btn btn-outline-dark me-2 mb-2"><i class="fab fa-github"></i></a>
-                  <a href="#" class="btn btn-outline-primary me-2 mb-2"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#" class="btn btn-outline-info me-2 mb-2"><i class="fab fa-twitter"></i></a>
-                  <a href="#" class="btn btn-outline-primary mb-2"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+<!-- Main Content -->
+<div class="flex-grow-1">
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-5">
+      <div class="container">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <div class="row justify-content-center">
+              <div class="col-md-6 mb-4 mb-md-0">
+                  <form>
+                      <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                  </form>
               </div>
-            </div>
+              <div class="col-md-6 d-flex flex-column align-items-center">
+                  <h4 class="text-center">Our Contact Details</h4>
+                  <p class="text-center"><i class="fas fa-map-marker-alt"></i> 123 Trade Street, Finance City, TX 12345</p>
+                  <p class="text-center"><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                  <p class="text-center"><i class="fas fa-envelope"></i> contact@tradex.com</p>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
   </section>
+</div>
 
 <!-- Footer -->
 <footer class="footer mt-auto">

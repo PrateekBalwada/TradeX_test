@@ -1,23 +1,61 @@
-<!-- Sign In Section -->
-<section class="sign-in-section py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <h2 class="text-center mb-4">Sign In</h2>
-        <form>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-          </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter your password">
-          </div>
-          <div class="d-grid">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-          </div>
-        </form>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Email</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sign">
+            <div class="main">
+                <div class="welcome">
+                    <h2>Welcome Back!</h2>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="S-in">SIGN IN</button>
+                </div>
+
+                <div class="colored-part">
+                    <form action="#">
+                        <h1>Create Account</h1>
+                        <div class="social-container">
+                            <div class="icon">
+                                <a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="#" class="social google"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="#" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+
+                        <span>or use your email for registration</span>
+                        <div class="input">
+                            <div class="posts">
+                                <span class="f-icon"><i class="fa fa-user"></i></span>
+                                <input type="text" placeholder="Name" class="post">
+                            </div>
+                            <div class="posts">
+                                <span class="f-icon"><i class="fa fa-envelope"></i></span>
+                                <input type="email" placeholder="Email" class="post">
+                            </div>
+                            <div class="posts">
+                                <span class="f-icon"><i class="fa fa-lock"></i></span>
+                                <input type="password" placeholder="Password" class="post">
+                            </div>
+                        </div>
+                        <button class="S-up">SIGN UP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</body>
+
+</html>

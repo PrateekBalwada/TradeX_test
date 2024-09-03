@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -26,7 +27,7 @@
             <ul class="navbar-nav ms-auto d-none d-lg-flex">
                 <!-- Regular nav items for larger screens -->
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Stocks</a>
@@ -35,7 +36,7 @@
                     <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contactus.html">Contact Us</a>
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto d-none d-lg-flex">
@@ -46,7 +47,7 @@
             <!-- Dropdown menu for small screens -->
             <ul class="navbar-nav ms-auto d-lg-none dropdown-menu-animated">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Stocks</a>
@@ -55,7 +56,7 @@
                 <a class="nav-link" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="contactus.html">Contact Us</a>
+                <a class="nav-link" href="contactus.html">Contact Us</a>
             </li>
                 <li class="nav-item">
                     <a class="btn btn-outline-light no-radius w-100" href="signin.html">Sign In</a>
@@ -65,60 +66,207 @@
     </div>
 </nav>
 
-<section class="contact">
-    <div class="content">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    </div>
-    <div class="container2">
-        <div class="contactInfo">
-            <div class="box">
-                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
-                <div class="text">
-                    <h3>Address</h3>
-                    <p>4671 Sugar Camp Road, <br>Owatonna, Minnesota, <br>55060</br></p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa-solid fa-phone"></i></div>
-                <div class="text">
-                    <h3>Phone</h3>
-                    <p>9530024136</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-                <div class="text">
-                    <h3>Email</h3>
-                    <p>test@gmail.com</p>
-                </div>
-            </div>
-        </div>
-        <div class="contactForm">
-            <form>
-                <h2>Send Message</h2>
-                <div class="inputbox">
-                    <input type="text" name="" required="required">
-                    <span>Full Name</span>
-                </div>
-                <div class="inputbox">
-                    <input type="text" name="" required="required">
-                    <span>Email</span>
-                </div>
-                <div class="inputbox">
-                    <input type="inputBox" name="" required="required">
-                    <span>Type your Message...</span>
-                </div>
-                <div class="inputbox">
-                    <input type="submit" name="" value="Send Message">
-                </div>
-            </form>
-        </div>
-    </div>
-    </section>
 
-<!-- Footer -->
-<footer class="footer mt-auto">
+  <!-- Hero Section -->
+  <section class="hero data-scroll">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Column: Content -->
+        <div class="col-md-6">
+          <div class="hero-content text-start">
+            <h1>Buy & Sell Digital</h1>
+            <h1>Assets In The</h1>
+            <h1>TradeX</h1>
+            <p>Your Gateway to Smarter Investments</p>
+            <a href="#" class="btn btn-custom btn-lg no-radius">Start Trading</a>
+          </div>
+        </div>
+        
+        <!-- Right Column: Image -->
+        <div class="col-md-6">
+          <img src="img/lol1.png" alt="Stock Market Analysis" class="img-fluid">
+          <!-- <i style="font-size: 350px;" class="fa-solid fa-circle-up"></i> -->
+        </div>
+      </div>
+    </div>
+
+    <svg viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="wave">
+        <path d="M0,0 C600,100 1200,100 1200,0 L1200,100 L0,100 Z" fill="#0E0F23"></path>
+    </svg>
+  </section>
+  
+
+  <!-- Features Section -->
+  
+  <section class="features py-5 data-scroll">
+    <div class="container text-center mt-5">
+      <h2>Find Your Next Investment on TradeX</h2>
+      <hr class="underline mx-auto">
+      <div class="row mt-4">
+          <div class="col-md-3">
+              <div class="card p-4 custom-hover-card">
+                  <div class="icon rounded-circle bg-light-green mx-auto">
+                    <i class="fa-solid fa-arrow-trend-up option-icon"></i>
+                  </div>
+                  <h4 class="mt-3">Stocks</h4>
+                  <p>Invest effortlessly in 2200+ stocks.</p>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-4 custom-hover-card2">
+                <div class="icon rounded-circle bg-light-purple mx-auto">
+                    <i class="fa-solid fa-chart-simple option-icon"></i>
+                </div>
+                <h4 class="mt-3">F&O</h4>
+                <p>Make the most of the market volatility.</p>
+            </div>
+        </div>        
+          <div class="col-md-3">
+              <div class="card p-4 custom-hover-card3">
+                  <div class="icon rounded-circle bg-light-blue mx-auto">
+                    <i class="fa-solid fa-indian-rupee-sign option-icon"></i>
+                  </div>
+                  <h4 class="mt-3">Mutual Funds</h4>
+                  <p>Choose professionally managed funds.</p>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card p-4 custom-hover-card4">
+                  <div class="icon rounded-circle bg-light-pink mx-auto">
+                    <i class="fa-solid fa-bullhorn option-icon"></i>
+                  </div>
+                  <h4 class="mt-3">IPOs</h4>
+                  <p>Seize opportunities and invest in new ventures.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+</section>
+
+<section class="features py-5 data-scroll">
+    <div class="container">
+      <div class="row">
+        <!-- TradingView Widget Column -->
+        <div class="col-lg-5 col-md-12 col-12 mb-4 order-lg-1 order-2">
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+              {
+                "colorTheme": "dark",
+                "dateRange": "12M",
+                "exchange": "BSE",
+                "showChart": true,
+                "locale": "en",
+                "largeChartUrl": "",
+                "isTransparent": false,
+                "showSymbolLogo": false,
+                "showFloatingTooltip": false,
+                "width": "100%",
+                "height": "550",
+                "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                "gridLineColor": "rgba(42, 46, 57, 0)",
+                "scaleFontColor": "rgba(209, 212, 220, 1)",
+                "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+              }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+        <!-- Trending Today Column -->
+        <div class="col-lg-7 col-md-12 col-12 order-lg-2 order-1">
+          <div class="trending-section">
+            <h4>What's Trending Today</h4>
+            <div class="divider"></div>
+            <p>
+              Whether you're tracking top gainers, losers, or stocks soaring past their 52-week highs, we've got you covered. Make smarter investment decisions with ease on TradeX.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="features py-5 data-scroll">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <!-- Text Content Column -->
+        <div class="col-lg-6 col-md-12 marginreq mb-4">
+          <h2 class="section-title">Track Market Live</h2>
+          <div class="divider"></div>
+          <p class="lead">
+            Stay ahead of the market trends with real-time insights. With live updates and comprehensive data at your fingertips, you'll always be in the know.
+          </p>
+        </div>
+        
+        <!-- Market Cards Column -->
+        <div class="col-lg-6 col-md-12">
+          <div class="row">
+            <!-- First Market Card -->
+            <div class="col-sm-6 col-md-4 mb-3">
+              <div class="card market-card p-4">
+                <h5>Nifty 50</h5>
+                <div class="price">25151.95</div>
+                <div class="change">+99.6</div>
+                <div class="percentage">&#9650; 0.4%</div>
+              </div>
+            </div>
+            
+            <!-- Second Market Card -->
+            <div class="col-sm-6 col-md-4 mb-3">
+              <div class="card market-card p-4">
+                <h5>Nifty Bank</h5>
+                <div class="price">51152.75</div>
+                <div class="change">+8.9</div>
+                <div class="percentage">&#9650; 0.02%</div>
+              </div>
+            </div>
+            
+            <!-- Third Market Card -->
+            <div class="col-sm-6 col-md-4 mb-3">
+              <div class="card market-card p-4">
+                <h5>Nifty IT</h5>
+                <div class="price">42591.65</div>
+                <div class="change">+197.25</div>
+                <div class="percentage">&#9650; 0.47%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="features py-5 data-scroll">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <!-- Image Column -->
+        <div class="col-lg-6 col-md-12 marginreq text-center text-lg-left mb-4 mb-lg-0">
+          <img src="img/main3.png" style="width: 80%;" alt="Collaboration Illustration" class="img-fluid illustration">
+        </div>
+        
+        <!-- Text Content Column -->
+        <div class="col-lg-6 col-md-12 marginreq">
+          <h2 class="section-title">Start Trading in Minutes</h2>
+          <div class="divider"></div>
+          <p class="lead">
+            Ready to take control of your financial future? Join Trade X today and unlock access to a world of trading opportunities. Create your account now and start trading with confidence on the platform designed for success!
+          </p>
+          <a href="#" class="btn btn-custom btn-lg no-radius">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<footer class="footer">
     <div class="container py-5">
         <div class="row align-items-center">
             <!-- Logo and Certifications -->

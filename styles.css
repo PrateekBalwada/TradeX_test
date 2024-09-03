@@ -105,6 +105,12 @@ body {
   margin-bottom: 30px;
 }
 
+/* Trending Section */
+.trending-section {
+  padding: 20px;
+  margin-top:25%;
+}
+
 /*featueres section*/
 
 .features {
